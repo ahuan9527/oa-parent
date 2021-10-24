@@ -11,7 +11,7 @@ public class TestServiceImpl implements TestService {
     }
 
     public void sayFetch() {
-        System.out.println("我新增了一个开发分支！");
+        System.out.println("我新增了一个开发分支！，搞一个冲突出来解决！");
     }
 
     public void continueTest() {
