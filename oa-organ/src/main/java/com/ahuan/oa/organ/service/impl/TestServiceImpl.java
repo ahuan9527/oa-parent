@@ -8,4 +8,8 @@ public class TestServiceImpl implements TestService {
         System.out.println("pring invoke this method !");
         System.out.println("打印一个好的日志！");
     }
+
+    public void sayFetch() {
+        System.out.println("我新增了一个开发分支！");
+    }
 }
