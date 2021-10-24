@@ -1,0 +1,4 @@
+com/ahuan/oa/auth/model/Authorization.class
+com/ahuan/oa/auth/service/AuthorizationService.class
+com/ahuan/oa/auth/mapper/AuthorizationMapper.class
+com/ahuan/oa/auth/service/impl/AuthorizationServiceImpl.class

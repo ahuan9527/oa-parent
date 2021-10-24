@@ -1,0 +1,7 @@
+#surefire
+#Sat Oct 23 16:47:26 CST 2021
+user.dir=/Users/ahuan/IdeaProjects/oa-parent/oa-web
+maven.repo.local=/Users/ahuan/.m2/repository
+idea.version=2020.2.3
+localRepository=/Users/ahuan/.m2/repository
+basedir=/Users/ahuan/IdeaProjects/oa-parent/oa-web

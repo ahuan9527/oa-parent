@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ahuan.oa.auth.mapper.AuthorizationMapper">
+    <resultMap id="authorization" type="com.ahuan.oa.auth.model.Authorization">
+        <id property="id" column="id" />
+        <result property="employeeId" column="employee_id"/>
+        <result property="roleId" column="role_id"/>
+    </resultMap>
+
+    <insert id="insertAuth" parameterType="com.ahuan.oa.auth.model.Authorization"
+     useGeneratedKeys="true" keyProperty="id">
+        insert  into authorization(employee_id,role_id) values (#{employeeId},#{roleId})
+    </insert>
+
+    <delete id="deleteAuth" parameterType="com.ahuan.oa.auth.model.Authorization">
+        delete from authorization where id = #{id};
+    </delete>
+
+    <select id="findById" resultMap="authorization" parameterType="long">
+        select * from authorization where id = #{id}
+    </select>
+</mapper>

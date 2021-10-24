@@ -1,0 +1,7 @@
+#surefire
+#Sat Oct 23 17:27:05 CST 2021
+user.dir=/Users/ahuan/IdeaProjects/oa-parent/oa-flow
+maven.repo.local=/Users/ahuan/.m2/repository
+idea.version=2020.2.3
+localRepository=/Users/ahuan/.m2/repository
+basedir=/Users/ahuan/IdeaProjects/oa-parent/oa-flow

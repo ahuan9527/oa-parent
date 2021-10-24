@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+
+<mapper namespace="com.ahuan.oa.flow.mapper.ApplicationMapper">
+    
+    <resultMap type="com.ahuan.oa.flow.model.Application" id="ApplicationResultMap">
+    	<result column="employee_id" property="employeeId" />  
+    </resultMap>
+    
+    <insert id="create" parameterType="com.ahuan.oa.flow.model.Application"
+    		useGeneratedKeys="true" keyProperty="id"> 
+    	INSERT INTO application(employee_id,days) VALUES(#{employeeId},#{days})
+    </insert>
+    
+    <delete id="delete" parameterType="long">
+    	DELETE FROM application WHERE ID=#{id}
+    </delete>
+    
+    <select id="findById" parameterType="long" resultMap="ApplicationResultMap">
+        SELECT * FROM application WHERE id=#{id}  
+    </select>  
+    
+</mapper>  
