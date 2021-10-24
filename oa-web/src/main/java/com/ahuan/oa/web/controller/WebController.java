@@ -26,6 +26,7 @@ public class WebController {
 	@ResponseBody
 	public String addEmployee(Employee employee) {
 		try {
+			System.out.println("git 测试！");
 			employeeService.add(employee);
 		} catch (Exception e) {
 			e.printStackTrace(); 
