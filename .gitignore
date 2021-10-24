@@ -1,1 +1,6 @@
-target\
+target/
+oa-organ/target/
+oa-auth/target/
+oa-flow/target/
+oa-web/target/
+
