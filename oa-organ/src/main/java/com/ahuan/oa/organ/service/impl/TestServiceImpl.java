@@ -21,4 +21,8 @@ public class TestServiceImpl implements TestService {
         System.out.println("add a github!");
         System.out.println("add feature/001!");
     }
+
+    public void addCompare() {
+        System.out.println("比较区别！");
+    }
 }

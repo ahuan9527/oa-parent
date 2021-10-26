@@ -5,4 +5,6 @@ public interface TestService {
     public void sayHello();
     void sayFetch();
     void continueTest();
+
+    void addCompare();
 }
