@@ -18,8 +18,8 @@ public class TestServiceImpl implements TestService {
 
     public void continueTest() {
         System.out.println("我们开了一个bugfix修复bug，合并到master后 继续回到开发分支进行开发！");
-        System.out.println("add a github!");
         System.out.println("add feature/001!");
+        System.out.println("git diff");
     }
 
     public void addCompare() {
